@@ -1,0 +1,9 @@
+div.contenido div{
+    padding-top: 5rem;
+    margin: auto;
+}
+img{
+    max-width:294px;
+    max-height:172px;
+    padding-left: 3rem;
+}

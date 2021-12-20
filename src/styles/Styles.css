@@ -1,0 +1,86 @@
+/* General */
+*{
+	margin: 0px;
+	padding: 0px;
+	/* color: #fff; */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+}
+/*FONDO*/
+
+html, body, .cover{
+	height: 87%;
+}
+
+.cover{
+	background-color: rgb(95, 123, 218);
+}
+section{
+	background: rgb(95, 123, 218);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section div.contenido{
+	/* width: 900px; */
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Cabecera */
+section.cabecera{
+	background: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	color: #fff;
+}
+nav{
+	margin: 0 3.5rem;
+	padding-top: 1rem;
+    font-size: 25px;
+}
+
+div.logo{
+	float: left;
+}
+div.logo a{
+	color: white;
+	text-decoration: none;
+}
+div.login{
+	float: right;
+}
+
+
+div.login input:hover{
+	cursor: pointer;
+}
+div.login input{
+	background: rgb(251, 117, 150);
+	border-radius: 4px;
+	padding: 15px 32px;
+	font-size: 20px;
+	color: #fff;
+}
+/* Cuerpo */
+.contenido img{
+    width: 90%;
+	height: auto;
+	border: 0;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    padding-top: 10rem;
+}
+/* Pie */
+section.pie{
+	padding-top: 10.55rem;
+}
+h1 {
+	padding-left: 5rem;
+	color: #fff;
+}
